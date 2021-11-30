@@ -1,0 +1,86 @@
+body{
+	background: url('https://brucebauer.info/img/IFSC4396/webpage-background.jpg');
+	/* Was unable to use local background image file, substitued direct link to image instead */
+	background-repeat: repeat-x;
+	background-size: auto 100%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 45px;
+	border: 1px solid white;
+	background-size: contain;
+	width: 800px;
+}
+
+header{
+    height: 150px;
+}
+
+.tab {
+	background-color: #000000;
+	overflow: hidden;
+	border: none;
+}
+
+.tab button {
+	background-color: #000000;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	color: #FFFFFF;
+}
+
+.tab button:hover {
+	background-color: #D3D3D3;
+}
+
+.tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+
+.main{
+    padding: 15px;
+    background-color: #FFFFFF;
+}
+
+.float-image{
+    float: right;
+    border: 2px solid black;
+    margin: 6px;
+}
+
+.alert {
+    color: #808080;
+}
+
+h2{
+	color: #0000FF;
+	padding: 0px;
+	margin: 0px;
+}
+
+h3{
+	color: #0000FF;
+	padding: 0px;
+	margin: 0px;
+	font-style: italic;
+}
+
+h4{
+	color: #0000FF;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: underline;
+}
+
+footer{
+    font-size: small;
+    padding: 6px 25px;
+    color: white;
+    background-color: black;
+}
